@@ -99,7 +99,8 @@
 $slick-font-path: "~slick-carousel/slick/fonts/" !default
 $slick-font-family: "slick" !default
 $slick-loader-path: "~slick-carousel/slick/" !default
-$slick-arrow-color: white !default
+$slick-arrow-color: #4c0000 !default
+$slick-arrow-hover: #b6817b !default
 $slick-dot-color: black !default
 $slick-dot-color-active: $slick-dot-color !default
 $slick-prev-character: "←" !default
@@ -149,7 +150,7 @@ $slick-opacity-not-active: 0.25 !default
   font-size: 0px
   cursor: pointer
   background: transparent
-  color: transparent
+  color: $slick-arrow-color
   top: 50%
   -webkit-transform: translate(0, -50%)
   -ms-transform: translate(0, -50%)
@@ -162,7 +163,7 @@ $slick-opacity-not-active: 0.25 !default
   &:hover, &:focus
     outline: none
     background: transparent
-    color: transparent
+    color: $slick-arrow-hover
 
     &:before
       opacity: $slick-opacity-on-hover
