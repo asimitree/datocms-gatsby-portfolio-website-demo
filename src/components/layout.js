@@ -95,7 +95,9 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                  <Link to="/">
+                    <img className="mobile-logo-svg" src="https://www.datocms-assets.com/36957/1605315664-asimitree-logo-02.svg"></img>
+                  </Link>
                 </div>
               </div>
             </div>
