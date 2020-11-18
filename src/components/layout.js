@@ -51,6 +51,9 @@ const TemplateWrapper = ({ children }) => {
           />
           <div className="container__sidebar">
             <div className="sidebar">
+              <Link to="/">
+                    <img className="mobile-sidebar-svg" src="https://www.datocms-assets.com/36957/1605315664-asimitree-logo-02.svg"></img>
+              </Link>
               <div
                 className="sidebar__intro"
                 dangerouslySetInnerHTML={{
